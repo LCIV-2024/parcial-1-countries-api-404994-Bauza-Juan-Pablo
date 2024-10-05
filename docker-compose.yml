@@ -1,0 +1,7 @@
+services:
+  countries-api:
+    container_name: countries-api
+    image: countries-api
+    build: .
+    ports:
+      - 8080:8080
